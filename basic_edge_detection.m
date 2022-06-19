@@ -1,0 +1,10 @@
+I=double((imread('C:\Users\hp\Downloads\lenaa.png')));
+In=I;
+BW=edge(I,'Canny');
+figure,imshow(BW)
+BW1=edge(I,'Sobel');
+figure,imshow(BW1)
+BW2=edge(I,'Roberts');
+figure,imshow(BW2)
+BW3=edge(I,'Prewitt');
+figure,imshow(BW3)
